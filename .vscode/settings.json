@@ -1,0 +1,13 @@
+{
+    "workbench.colorCustomizations": {
+        "titleBar.activeBackground": "#2e8c9e38",
+        "titleBar.inactiveBackground": "#2e8c9e1f",
+        "titleBar.border": "#2e8c9e",
+        "statusBar.border": "#2e8c9e",
+        "statusBar.foreground": "#2e8c9e",
+        "activityBar.activeBorder": "#2e8c9e",
+        "focusBorder": "#2e8c9e80",
+        "__omnify": "ripjaws:subtle"
+    },
+    "omnify.alien": "ripjaws"
+}
