@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="calculadora">
+        <input type="text" id="tela">
+        <div class="botoes">
+            <div class="linhaBotoes">
+                <button class="orange" onclick="limparTela()">C</button>
+                <button class="purple" onclick="adicionarValor('/')">/</button>
+                <button class="purple" onclick="adicionarValor('*')">*</button>
+                <button class="orange" onclick="del()">Del</button>
+            </div>
+            <div class="linhaBotoes">
+                <button onclick="adicionarValor('7')">7</button>
+                <button onclick="adicionarValor('8')">8</button>
+                <button onclick="adicionarValor('9')">9</button>
+                <button class="purple" onclick="adicionarValor('-')">-</button>
+            </div>
+            <div class="linhaBotoes">
+                <button onclick="adicionarValor('4')">4</button>
+                <button onclick="adicionarValor('5')">5</button>
+                <button onclick="adicionarValor('6')">6</button>
+                <button class="purple" onclick="adicionarValor('+')">+</button>
+            </div>
+            <div class="linhaBotoes">
+                <button onclick="adicionarValor('1')">1</button>
+                <button onclick="adicionarValor('2')">2</button>
+                <button onclick="adicionarValor('3')">3</button>
+                <button class="blue" onclick="calcularResultado()">=</button>
+            </div>
+            <div class="linhaBotoes">
+                <button class="btn0" onclick="adicionarValor('0')">0</button>
+                <button onclick="adicionarValor('.')">.</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/main.js"></script>
+</body>
+</html>
