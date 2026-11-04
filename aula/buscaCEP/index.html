@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Busca CEP</title>
+</head>
+<body>
+    <main>
+        <h1>Busca CEP</h1>
+        <form action="#" id="form-cep">
+            <input type="text" id="input-cep" placeholder="Digite o CEP (Somente Números)" maxlength="8" pattern="\d{8}" required> <!-- pattern cria um padrão de resposta, caso nn seja atendida ele nn funciona e da erro -->
+            <!-- maxlenght deixa um limite de caracteres permitidos ex o maximo que se pode digitar é 8 numeros -->
+            <button type="submit">Buscar</button>
+        </form>
+        <div id="resultado" class="resultado">
+
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
